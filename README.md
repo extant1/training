@@ -47,8 +47,8 @@ Press 'Alt + H' to heal.  Don't be a dick and cheat.
 
 ## Player
 
-newplayer = All maxskills + alignment
-alignment = Alignment to 1000
+newplayer = All maxskills + alignment  
+alignment = Alignment to 1000    
 maxskills = All skills to 100
 minor = All minor skills to 100
 crafting = All crafting skills to 100
@@ -69,7 +69,7 @@ All arrows or bolts take a required quantity argument.
 EXAMPLE:  
 			`heavybolt(30)`
 
-###Armors(quality)
+## Armors(quality)
 ---------------
 regularpadded
 heavypadded
@@ -88,10 +88,10 @@ fullplate
 royalplate
 
 
-###Weapons(quality)
+## Weapons(quality)
 ----------------
-boarspear OR bs
-partisan OR p
+boarspear **OR** bs
+partisan **OR** p
 jousting
 lance
 decorated
@@ -99,14 +99,14 @@ shortpike
 mediumpike
 longpike
 
-###2H Sword(Quality)
+###### 2H Sword(Quality)
 ----------------
-zweihaender OR zwei
+zweihaender **OR** zwei
 claymore
 bigfalchion
 flamberge
 
-###Blunt (Quality)
+###### Blunt (Quality)
 ----------------
 maul
 warpick
@@ -114,7 +114,7 @@ mace
 cudgel
 morningstar
 
-###1H Sword(Quality)
+###### 1H Sword(Quality)
 ----------------
 falchion
 scimitar
@@ -122,25 +122,25 @@ nordic
 knight
 lightsabre
 
-###Bows(quality)
+###### Bows(quality)
 ----------------
 shortbow
 longbow
 compositebow
 
-###Crossbows(quality)
+###### Crossbows(quality)
 ----------------
 lightcrossbow
 heavycrossbow
 arbalest
 
-###Thrown Weapons (quality)
+###### Thrown Weapons (quality)
 -----------------
 throwingknife
 javelin
 throwingaxe
 
-###Arrows(Quantity)
+###### Arrows(Quantity)
 -----------------
 arrow
 broadhead
@@ -149,14 +149,14 @@ firework
 dull
 bodkin
 
-###Bolts(Quantity)
+###### Bolts(Quantity)
 -----------------
 bolt
 dullbolt
 heavybolt
 fireworkbolt
 
-###Shields(Quality)
+###### Shields(Quality)
 -----------------
 targe
 heavytarge
@@ -165,11 +165,11 @@ kite
 tower
 pavise
 
-###Misc(Quality)
+###### Misc(Quality)
 -----------------
 tabard
 
-###Horses(Quality)
+###### Horses(Quality)
 -----------------
 warhorse
 spirited
