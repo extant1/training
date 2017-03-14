@@ -47,14 +47,14 @@ Press 'Alt + H' to heal.  Don't be a dick and cheat.
 
 ## Player
 
-newplayer = All maxskills + alignment 
-alignment = Alignment to 1000 
-maxskills = All skills to 100
-minor = All minor skills to 100 
-crafting = All crafting skills to 100 
-special = All special combat skills to 100 (Equipment maintain, battle survival, drill) 
-armor = All armor skills to 100 
-combat = All combat skills to 100 
+newplayer = All maxskills + alignment  
+alignment = Alignment to 1000  
+maxskills = All skills to 100  
+minor = All minor skills to 100  
+crafting = All crafting skills to 100  
+special = All special combat skills to 100 (Equipment maintain, battle survival, drill)  
+armor = All armor skills to 100  
+combat = All combat skills to 100  
 
 
 ## Items
