@@ -4,6 +4,8 @@ Version 1.0
 This is a training server assistance script to help spawn items in, heal the player, and set their stats.
 This REQUIRES GM power and will not work without.
 
+---------------
+
 ## Installation
 
 
@@ -16,6 +18,7 @@ This REQUIRES GM power and will not work without.
 			`exec("mod/training/init.cs");`
 
 
+---------------
 
 ## New Players
 
@@ -37,6 +40,7 @@ EXAMPLE:
 			`Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower`
 
 			
+---------------
 
 ## Healing
 
@@ -44,6 +48,7 @@ EXAMPLE:
 Press 'Alt + H' to heal.  Don't be a dick and cheat.
 
 
+---------------
 
 ## Player
 
@@ -56,6 +61,7 @@ special = All special combat skills to 100 (Equipment maintain, battle survival,
 armor = All armor skills to 100  
 combat = All combat skills to 100  
 
+---------------
 
 ## Items
 
@@ -70,7 +76,6 @@ EXAMPLE:
 			`heavybolt(30)`  
   
 ## Armors(quality)
----------------
 regularpadded  
 heavypadded  
 royalpadded  
@@ -88,31 +93,26 @@ fullplate
 royalplate  
 
 ## Poleaxes(quality)
-----------------
 partisan **OR** p  
 
 ## Spears(quality)
-----------------
 boarspear **OR** bs  
 shortpike  
 mediumpike  
 longpike  
 
 ## Lances(quality)
-----------------
 jousting  
 lance  
 decorated  
 
 ## 2H Sword(Quality)
-----------------
 zweihaender **OR** zwei  
 claymore  
 bigfalchion  
 flamberge  
 
 ## Blunt (Quality)
-----------------
 maul  
 warpick  
 mace  
@@ -120,7 +120,6 @@ cudgel
 morningstar  
 
 ## 1H Sword(Quality)
-----------------
 falchion  
 scimitar  
 nordic  
@@ -128,25 +127,21 @@ knight
 lightsabre  
 
 ## Bows(quality)
-----------------
 shortbow  
 longbow  
 compositebow  
 
 ## Crossbows(quality)
-----------------
 lightcrossbow  
 heavycrossbow  
 arbalest  
 
 ## Thrown Weapons (quality)
------------------
 throwingknife  
 javelin  
 throwingaxe  
 
 ## Arrows(Quantity)
------------------
 arrow  
 broadhead  
 fire  
@@ -155,14 +150,12 @@ dull
 bodkin  
 
 ## Bolts(Quantity)
------------------
 bolt  
 dullbolt  
 heavybolt  
 fireworkbolt  
 
 ## Shields(Quality)
------------------
 targe  
 heavytarge  
 heater  
@@ -171,11 +164,9 @@ tower
 pavise  
 
 ## Misc(Quality)
------------------
 tabard  
 
 ## Horses(Quality)
------------------
 warhorse  
 spirited  
 hardy  
