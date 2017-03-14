@@ -15,7 +15,9 @@ This REQUIRES GM power and will not work without.
 
 * Open the console and type:
 
-			```exec("mod/training/init.cs");```
+			```
+			exec("mod/training/init.cs");
+			```
 
 
 ---------------
@@ -24,7 +26,9 @@ This REQUIRES GM power and will not work without.
 
 If this is your first time on the training server be sure to run the gm command:
 
-			```/gm <password>```
+			```
+			/gm <password>
+			```
 			
 Then open your console using 'Ctrl + ~' and type 'newplayer' without the quotes.
 This will set all your skills and alignment to maximum.
@@ -35,9 +39,13 @@ to work.
 
 EXAMPLE:
 
-			```stats(30, 20, 70, 14, 16)```
+			```
+			stats(30, 20, 70, 14, 16)
+			```
 			
-			```Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower```
+			```
+			Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower
+			```
 
 			
 ---------------
