@@ -61,117 +61,117 @@ combat = All combat skills to 100
 
 All weapons, armor, and horses take an optional quality argument.
 Some common or difficult to spell weapons have aliases for convenience.  
-EXAMPLE: 
-			`royalchain(75)` 
-			`boarspear(100)` 
+EXAMPLE:  
+			`royalchain(75)`  
+			`boarspear(100)`  
   
-All arrows or bolts take a required quantity argument.  
+All arrows or bolts take a required quantity argument.   
 EXAMPLE:   
 			`heavybolt(30)`  
-
+  
 ## Armors(quality)
 ---------------
-regularpadded
-heavypadded
-royalpadded
-regularscale
-heavyscale
-royalscale
-regularleather
-heavyleather
-royalleather
-regularchain
-heavychain
-royalchain
-halfplate
-fullplate
-royalplate
+regularpadded  
+heavypadded  
+royalpadded  
+regularscale  
+heavyscale  
+royalscale  
+regularleather  
+heavyleather  
+royalleather  
+regularchain  
+heavychain  
+royalchain  
+halfplate  
+fullplate  
+royalplate  
 
 
 ## Weapons(quality)
 ----------------
-boarspear **OR** bs
-partisan **OR** p
-jousting
-lance
-decorated
-shortpike
-mediumpike
-longpike
+boarspear **OR** bs  
+partisan **OR** p  
+jousting  
+lance  
+decorated  
+shortpike  
+mediumpike  
+longpike  
 
 ###### 2H Sword(Quality)
 ----------------
-zweihaender **OR** zwei
-claymore
-bigfalchion
-flamberge
+zweihaender **OR** zwei  
+claymore  
+bigfalchion  
+flamberge  
 
 ###### Blunt (Quality)
 ----------------
-maul
-warpick
-mace
-cudgel
-morningstar
+maul  
+warpick  
+mace  
+cudgel  
+morningstar  
 
 ###### 1H Sword(Quality)
 ----------------
-falchion
-scimitar
-nordic
-knight
-lightsabre
+falchion  
+scimitar  
+nordic  
+knight  
+lightsabre  
 
 ###### Bows(quality)
 ----------------
-shortbow
-longbow
-compositebow
+shortbow  
+longbow  
+compositebow  
 
 ###### Crossbows(quality)
 ----------------
-lightcrossbow
-heavycrossbow
-arbalest
+lightcrossbow  
+heavycrossbow  
+arbalest  
 
 ###### Thrown Weapons (quality)
 -----------------
-throwingknife
-javelin
-throwingaxe
+throwingknife  
+javelin  
+throwingaxe  
 
 ###### Arrows(Quantity)
 -----------------
-arrow
-broadhead
-fire
-firework
-dull
-bodkin
+arrow  
+broadhead  
+fire  
+firework  
+dull  
+bodkin  
 
 ###### Bolts(Quantity)
 -----------------
-bolt
-dullbolt
-heavybolt
-fireworkbolt
+bolt  
+dullbolt  
+heavybolt  
+fireworkbolt  
 
 ###### Shields(Quality)
 -----------------
-targe
-heavytarge
-heater
-kite
-tower
-pavise
+targe  
+heavytarge  
+heater  
+kite  
+tower  
+pavise  
 
 ###### Misc(Quality)
 -----------------
-tabard
+tabard  
 
 ###### Horses(Quality)
 -----------------
-warhorse
-spirited
-hardy
-heavy
+warhorse  
+spirited  
+hardy  
+heavy  
