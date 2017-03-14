@@ -1,14 +1,11 @@
-////////////
-// README //
-////////////
+# Life is Feudal Training Server Script
 Version 1.0
 
 This is a training server assistance script to help spawn items in, heal the player, and set their stats.
 This REQUIRES GM power and will not work without.
 
-////
-// Installation
-////
+## Installation
+
 
 * Go to your life is feudal game directory and create a folder called 'mod' if this does not exist already.
 
@@ -19,13 +16,12 @@ This REQUIRES GM power and will not work without.
 			`exec("mod/training/init.cs");`
 
 
-////
-// New Players
-////
+
+## New Players
 
 If this is your first time on the training server be sure to run the gm command:
 
-			/gm <password>
+			`/gm <password>`
 			
 Then open your console using 'Ctrl + ~' and type 'newplayer' without the quotes.
 This will set all your skills and alignment to maximum.
@@ -36,24 +32,22 @@ to work.
 
 EXAMPLE:
 
-			stats(30, 20, 70, 14, 16)
+			`stats(30, 20, 70, 14, 16)`
 			
-			Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower
+			`Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower`
 
 			
-////
-// Healing
-////
+
+## Healing
+
 
 Press 'Alt + H' to heal.  Don't be a dick and cheat.
 
 
-////
-// Player
-////
+
+## Player
 
 newplayer = All maxskills + alignment
-
 alignment = Alignment to 1000
 maxskills = All skills to 100
 minor = All minor skills to 100
@@ -63,22 +57,19 @@ armor = All armor skills to 100
 combat = All combat skills to 100
 
 
-////
-// Items
-////
+## Items
 
 All weapons, armor, and horses take an optional quality argument.
 Some common or difficult to spell weapons have aliases for convenience. 
 EXAMPLE:
-			royalchain(75)
-			boarspear(100)
+			`royalchain(75)`
+			`boarspear(100)`
 
 All arrows or bolts take a required quantity argument.
 EXAMPLE:  
-			heavybolt(30)
+			`heavybolt(30)`
 
-
-Armors(quality)
+###Armors(quality)
 ---------------
 regularpadded
 heavypadded
@@ -97,7 +88,7 @@ fullplate
 royalplate
 
 
-Weapons(quality)
+###Weapons(quality)
 ----------------
 boarspear OR bs
 partisan OR p
@@ -108,14 +99,14 @@ shortpike
 mediumpike
 longpike
 
-2H Sword(Quality)
+###2H Sword(Quality)
 ----------------
 zweihaender OR zwei
 claymore
 bigfalchion
 flamberge
 
-Blunt (Quality)
+###Blunt (Quality)
 ----------------
 maul
 warpick
@@ -123,7 +114,7 @@ mace
 cudgel
 morningstar
 
-1H Sword(Quality)
+###1H Sword(Quality)
 ----------------
 falchion
 scimitar
@@ -131,25 +122,25 @@ nordic
 knight
 lightsabre
 
-Bows(quality)
+###Bows(quality)
 ----------------
 shortbow
 longbow
 compositebow
 
-Crossbows(quality)
+###Crossbows(quality)
 ----------------
 lightcrossbow
 heavycrossbow
 arbalest
 
-Thrown Weapons (quality)
+###Thrown Weapons (quality)
 -----------------
 throwingknife
 javelin
 throwingaxe
 
-Arrows(Quantity)
+###Arrows(Quantity)
 -----------------
 arrow
 broadhead
@@ -158,14 +149,14 @@ firework
 dull
 bodkin
 
-Bolts(Quantity)
+###Bolts(Quantity)
 -----------------
 bolt
 dullbolt
 heavybolt
 fireworkbolt
 
-Shields(Quality)
+###Shields(Quality)
 -----------------
 targe
 heavytarge
@@ -174,11 +165,11 @@ kite
 tower
 pavise
 
-Misc(Quality)
+###Misc(Quality)
 -----------------
 tabard
 
-Horses(Quality)
+###Horses(Quality)
 -----------------
 warhorse
 spirited
