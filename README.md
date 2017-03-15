@@ -11,6 +11,8 @@ This REQUIRES GM power and will not work without.
 
 * Go to your life is feudal game directory and create a folder called 'mod' if this does not exist already.
 
+* After downloading/extracting the files rename the folder from training-master to training. (Unless you just want to change the exec command further on.)
+
 * Copy the 'training' folder into the 'mod' folder.
 
 * Open the console and type:
