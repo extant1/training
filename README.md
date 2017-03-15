@@ -17,6 +17,12 @@ This REQUIRES GM power and will not work without.
 
 			exec("mod/training/init.cs");
 
+##### NOTE:  
+This will only keep the script loaded while the game is running.  When the game closes the script
+will need to be executed (exec) again to use.
+
+*I will update the instructions to run the script automatically every time the game is run after some testing.*
+
 
 ---------------
 
