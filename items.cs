@@ -512,43 +512,57 @@ function fireworkbolt(%quantity)
 	}
 }
 
+// Siege
+function stoneammo(%quantity)
+{
+	if(%quantity){
+	echo("## Adding " @ %quantity @ " Stone ammo - Q100 ##");
+	cmChatCommand('@', "/ADD 1107 " @ %quantity @ " 100");
+	}
+	else {
+		echo("##########################");
+		echo("## Quantity is required ##");
+		echo("##########################");
+	}
+}
+
 
 // Shields
 function targe(%quality)
 {
 	echo("## Adding Targe Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 612 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 612 1 " @ %quality @ " 100000");
 }
 function heavytarge(%quality)
 {
 	echo("## Adding Heavy Targe Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 1066 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 1066 1 " @ %quality @ " 100000");
 }
 function heater(%quality)
 {
 	echo("## Adding Heater Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 615 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 615 1 " @ %quality @ " 100000");
 }
 function kite(%quality)
 {
 	echo("## Adding Kite Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 616 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 616 1 " @ %quality @ " 100000");
 }
 function tower(%quality)
 {
 	echo("## Adding Tower Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 617 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 617 1 " @ %quality @ " 100000");
 }
 function pavise(%quality)
 {
 	echo("## Adding Pavise - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 618 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 618 1 " @ %quality @ " 100000");
 }
 
 function tabard(%quality)
 {
 	echo("## Adding Targe Shield - Q" @ %quality @ " ##");
-	cmChatCommand('@', "/ADD 1376 1 " @ %quality @ " 10000");
+	cmChatCommand('@', "/ADD 1376 1 " @ %quality @ " 100000");
 }
 
 
