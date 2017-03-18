@@ -1,5 +1,5 @@
 # Life is Feudal Training Server Script
-Version 1.0
+Version 1.1
 
 This is a training server assistance script to help spawn items in, heal the player, and set their stats.
 This REQUIRES GM power and will not work without.
