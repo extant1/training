@@ -51,6 +51,10 @@ EXAMPLE:
 			
 ---------------
 
+## Stats
+
+stats(strength, agility, constitution, intel, willpower)
+
 ## Healing
 
 
