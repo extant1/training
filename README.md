@@ -34,7 +34,9 @@ will need to be executed (exec) again to use.
 If this is your first time on the training server be sure to run the gm command:
 
 			/gm <password>
-			
+
+__WARNING: Using the 'newplayer' command will set all of your crafting, combat, and minor skills to 100.  This will in turn give you the Steam Achievements for those skills without earning them.__
+
 Then open your console using 'Ctrl + ~' and type 'newplayer' without the quotes.
 This will set all your skills and alignment to maximum.
 
@@ -55,6 +57,15 @@ EXAMPLE:
 
 stats(strength, agility, constitution, intel, willpower)
 
+This command will set your player stats, the command requires five arguments in the correct order (strength, agility, constitution, intel, willpower)
+to work.
+
+EXAMPLE:
+
+			stats(30, 20, 70, 14, 16)
+			
+			Would be 30 strength, 20 agility, 70 constitution, 14 intell, 16 willpower
+
 ## Healing
 
 
@@ -64,6 +75,8 @@ Press 'Alt + H' to heal.  Don't be a dick and cheat.
 ---------------
 
 ## Player
+
+__WARNING: Using these commands will set your skills to 100 which will give you the Steam Achievements for those skills.__
 
 newplayer = All maxskills + alignment  
 alignment = Alignment to 1000  
