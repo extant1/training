@@ -156,3 +156,11 @@ function newplayer(){
 	wait(1000);
 	alignment();
 }
+
+function ella() {
+	cmChatcommand("@", "/setmyskill 'poleaxes mastery' 90");
+	cmChatcommand("@", "/setmyskill 'piercing mastery' 90");
+	cmChatcommand("@", "/setmyskill 'lancing' 90");
+	cmChatcommand("@", "/setmyskill 'chainmail armors' 90");
+	cmChatcommand("@", "/setmyskill 'mounted fighting mastery' 90");
+}
