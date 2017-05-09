@@ -5,6 +5,8 @@ Version 1.2
 
 -Updated for combat skill tree change
 
+---------------
+
 This is a training server assistance script to help spawn items in, heal the player, and set their stats.
 This REQUIRES GM power and will not work without.
 
