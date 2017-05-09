@@ -5,19 +5,17 @@ function combat(){
 	echo("## Setting all combat skills to 100 ##");
 	echo("");
 	echo("********************************************");
-	cmChatcommand("@", "/setmyskill 'Milita' 100");
-	cmChatcommand("@", "/setmyskill 'Slinger' 100");
 	cmChatcommand("@", "/setmyskill 'Cavalryman' 100");
 	cmChatcommand("@", "/setmyskill 'Knight' 100");
 	cmChatcommand("@", "/setmyskill 'Lancer' 100");
+	cmChatcommand("@", "/setmyskill 'Milita' 100");
 	cmChatcommand("@", "/setmyskill 'Spearman' 100");
 	cmChatcommand("@", "/setmyskill 'Guard' 100");
 	cmChatcommand("@", "/setmyskill 'Footman' 100");
 	cmChatcommand("@", "/setmyskill 'Swordsman' 100");
 	cmChatcommand("@", "/setmyskill 'Huskarl' 100");
-	
+	cmChatcommand("@", "/setmyskill 'Slinger' 100");
 	cmChatcommand("@", "/setmyskill 'Archer' 100");
-	cmChatcommand("@", "/setmyskill 'demolition' 100");
 	cmChatcommand("@", "/setmyskill 'Ranger' 100");
 	cmChatcommand("@", "/setmyskill 'Assaulter' 100");
 	cmChatcommand("@", "/setmyskill 'Vanguard' 100");
@@ -37,7 +35,8 @@ function special(){
 	echo("********************************************");
 	cmChatcommand("@", "/setmyskill 'equipment maintain' 100");
 	cmChatcommand("@", "/setmyskill 'battle survival' 100");
-	cmChatcommand("@", "/setmyskill 'drill' 100");
+	cmChatcommand("@", "/setmyskill 'unit and formation' 100");
+	cmChatcommand("@", "/setmyskill 'demolition' 100");
 	echo("********************************************");
 	echo("Done");
 	echo("********************************************");
@@ -138,12 +137,4 @@ function newplayer(){
 	maxskills();
 	wait(1000);
 	alignment();
-}
-
-function ella() {
-	cmChatcommand("@", "/setmyskill 'poleaxes mastery' 90");
-	cmChatcommand("@", "/setmyskill 'piercing mastery' 90");
-	cmChatcommand("@", "/setmyskill 'lancing' 90");
-	cmChatcommand("@", "/setmyskill 'chainmail armors' 90");
-	cmChatcommand("@", "/setmyskill 'mounted fighting mastery' 90");
 }
