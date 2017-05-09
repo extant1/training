@@ -5,45 +5,28 @@ function combat(){
 	echo("## Setting all combat skills to 100 ##");
 	echo("");
 	echo("********************************************");
-	cmChatcommand("@", "/setmyskill 'chivalry' 100");
-	cmChatcommand("@", "/setmyskill 'spear mastery' 100");
-	cmChatcommand("@", "/setmyskill 'poleaxes mastery' 100");
-	cmChatcommand("@", "/setmyskill 'unit and formation' 100");
-	cmChatcommand("@", "/setmyskill 'mounted fighting mastery' 100");
-	cmChatcommand("@", "/setmyskill 'lancing' 100");
-	cmChatcommand("@", "/setmyskill 'heavy horse handling' 100");
-	cmChatcommand("@", "/setmyskill 'blades mastery' 100");
-	cmChatcommand("@", "/setmyskill 'shield mastery' 100");
-	cmChatcommand("@", "/setmyskill 'piercing mastery' 100");
+	cmChatcommand("@", "/setmyskill 'Milita' 100");
+	cmChatcommand("@", "/setmyskill 'Slinger' 100");
+	cmChatcommand("@", "/setmyskill 'Cavalryman' 100");
+	cmChatcommand("@", "/setmyskill 'Knight' 100");
+	cmChatcommand("@", "/setmyskill 'Lancer' 100");
+	cmChatcommand("@", "/setmyskill 'Spearman' 100");
+	cmChatcommand("@", "/setmyskill 'Guard' 100");
+	cmChatcommand("@", "/setmyskill 'Footman' 100");
+	cmChatcommand("@", "/setmyskill 'Swordsman' 100");
+	cmChatcommand("@", "/setmyskill 'Huskarl' 100");
 	
-	cmChatcommand("@", "/setmyskill 'warrior' 100");
+	cmChatcommand("@", "/setmyskill 'Archer' 100");
 	cmChatcommand("@", "/setmyskill 'demolition' 100");
-	cmChatcommand("@", "/setmyskill 'two-handed axes mastery' 100");
-	cmChatcommand("@", "/setmyskill 'two-handed blunt mastery' 100");
-	cmChatcommand("@", "/setmyskill 'two-handed blades mastery' 100");
-	cmChatcommand("@", "/setmyskill 'war cries' 100");
-	cmChatcommand("@", "/setmyskill 'crossbows mastery' 100");
-	cmChatcommand("@", "/setmyskill 'bows mastery' 100");
-	cmChatcommand("@", "/setmyskill 'combat preparation' 100");
+	cmChatcommand("@", "/setmyskill 'Ranger' 100");
+	cmChatcommand("@", "/setmyskill 'Assaulter' 100");
+	cmChatcommand("@", "/setmyskill 'Vanguard' 100");
+	cmChatcommand("@", "/setmyskill 'Berserker' 100");
 	echo("********************************************");
 	echo("Done");
 	echo("********************************************");
 }
 
-function armor(){
-	// Sets armor skills
-	echo("********************************************");
-	echo("");
-	echo("## Setting all armor skills to 100 ##");
-	echo("");
-	echo("********************************************");
-	cmChatcommand("@", "/setmyskill 'chainmail armors' 100");
-	cmChatcommand("@", "/setmyskill 'scale armors' 100");
-	cmChatcommand("@", "/setmyskill 'plate armors' 100");
-	echo("********************************************");
-	echo("Done");
-	echo("********************************************");
-}
 
 function special(){
 	// set optional combat skills.
