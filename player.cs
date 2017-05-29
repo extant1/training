@@ -13,7 +13,7 @@ function combat(){
 	cmChatcommand("@", "/setmyskill 'Guard' 100");
 	cmChatcommand("@", "/setmyskill 'Footman' 100");
 	cmChatcommand("@", "/setmyskill 'Swordsman' 100");
-	cmChatcommand("@", "/setmyskill 'Huskarl' 100");
+	cmChatcommand("@", "/setmyskill 'Huscarl' 100");
 	cmChatcommand("@", "/setmyskill 'Slinger' 100");
 	cmChatcommand("@", "/setmyskill 'Archer' 100");
 	cmChatcommand("@", "/setmyskill 'Ranger' 100");
