@@ -203,6 +203,7 @@ pavise
 
 ## Misc(quality)
 tabard  
+gold (ingot for monuments)  
 
 ## Horses(quality)
 warhorse  
