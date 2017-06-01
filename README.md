@@ -1,5 +1,6 @@
 # Life is Feudal Training Server Script
 Version 1.3
+
 1.3
 
 -Fixed typos
