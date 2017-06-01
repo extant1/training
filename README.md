@@ -1,5 +1,5 @@
 # Life is Feudal Training Server Script
-Version 1.3
+**Version 1.3**
 
 1.3
 
@@ -143,21 +143,21 @@ jousting
 lance  
 decorated  
 
-## 2H Sword(Quality)
+## 2H Sword(quality)
 zweihaender **OR** zwei  
 claymore  
 bigfalchion  
 flamberge  
 knight
 
-## Blunt (Quality)
+## Blunt (quality)
 maul  
 warpick  
 mace  
 cudgel  
 morningstar  
 
-## 1H Sword(Quality)
+## 1H Sword(quality)
 falchion  
 scimitar  
 nordic  
@@ -179,7 +179,7 @@ throwingknife
 javelin  
 throwingaxe  
 
-## Arrows(Quantity)
+## Arrows(QUANTITY)
 arrow  
 broadhead  
 fire  
@@ -187,13 +187,13 @@ firework
 dull  
 bodkin  
 
-## Bolts(Quantity)
+## Bolts(QUANTITY)
 bolt  
 dullbolt  
 heavybolt  
 fireworkbolt  
 
-## Shields(Quality)
+## Shields(QUANTITY)
 targe  
 heavytarge  
 heater  
@@ -201,10 +201,10 @@ kite
 tower  
 pavise  
 
-## Misc(Quality)
+## Misc(quality)
 tabard  
 
-## Horses(Quality)
+## Horses(quality)
 warhorse  
 spirited  
 hardy  
