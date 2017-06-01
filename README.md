@@ -1,5 +1,9 @@
 # Life is Feudal Training Server Script
-Version 1.2
+Version 1.3
+1.3
+
+-Fixed typos
+-Added remaining weapons
 
 1.2
 
@@ -143,6 +147,7 @@ zweihaender **OR** zwei
 claymore  
 bigfalchion  
 flamberge  
+knight
 
 ## Blunt (Quality)
 maul  
@@ -155,7 +160,7 @@ morningstar
 falchion  
 scimitar  
 nordic  
-knight  
+grossmesser **OR** g  
 lightsabre  
 
 ## Bows(quality)
