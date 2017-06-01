@@ -963,7 +963,6 @@ function tabard(%quality)
 		cmChatCommand('@', "/ADD 1376 1 100 1000000");
 	}
 }
-/ADD 406 1 100
 function gold()
 {
 	echo("## Adding Gold Ingot ##");
