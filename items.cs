@@ -392,23 +392,24 @@ function p(%quality)
 function lance(%quality)
 {
 	if(%quality){
-		echo("## Adding lance - Q" @ %quality @ " ##");
+		echo("## Adding Lance - Q" @ %quality @ " ##");
 		cmChatCommand('@', "/ADD 598 1 " @ %quality @ " 100000");
 	}
 	else {
-		echo("## Adding lance - Q100 ##");
+		echo("## Adding Lance - Q100 ##");
 		cmChatCommand('@', "/ADD 598 1 100 1000000");
 	}
 }
 
+
 function decorated(%quality)
 {
 	if(%quality){
-		echo("## Adding Decorated Joustin Lance - Q" @ %quality @ " ##");
+		echo("## Adding Decorated Jousting Lance - Q" @ %quality @ " ##");
 		cmChatCommand('@', "/ADD 1141 1 " @ %quality @ " 100000");
 	}
 	else {
-		echo("## Adding Decorated Joustin Lance - Q100 ##");
+		echo("## Adding Decorated Jousting Lance - Q100 ##");
 		cmChatCommand('@', "/ADD 1141 1 100 1000000");
 	}
 }
@@ -416,11 +417,11 @@ function decorated(%quality)
 function jousting(%quality)
 {
 	if(%quality){
-		echo("## Adding Jousing Lance - Q" @ %quality @ " ##");
+		echo("## Adding Jousting Lance - Q" @ %quality @ " ##");
 		cmChatCommand('@', "/ADD 599 1 " @ %quality @ " 100000");
 	}
 	else {
-		echo("## Adding Jousing Lance - Q100 ##");
+		echo("## Adding Jousting Lance - Q100 ##");
 		cmChatCommand('@', "/ADD 599 1 100 100000");
 	}
 }
@@ -588,6 +589,17 @@ function zwei(%quality)
 {
 	zweihaender(%quality);
 }
+function knight(%quality)
+{
+	if(%quality){
+		echo("## Adding Knight Sword - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 557 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Knight Sword - Q100 ##");
+		cmChatCommand('@', "/ADD 557 1 100 100000");
+	}
+}
 function claymore(%quality)
 {
 	if(%quality){
@@ -693,6 +705,21 @@ function falchion(%quality)
 		cmChatCommand('@', "/ADD 560 1 100 100000");
 	}
 }
+function grossmesser(%quality)
+{
+	if(%quality){
+		echo("## Adding Grossmesser - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 565 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Grossmesser - Q100 ##");
+		cmChatCommand('@', "/ADD 565 1 100 100000");
+	}
+}
+function gross(%quality)
+{
+	grossmesser(%quality);
+}
 function scimitar(%quality)
 {
 	if(%quality){
@@ -713,17 +740,6 @@ function nordic(%quality)
 	else {
 		echo("## Adding Nordic Sword - Q100 ##");
 		cmChatCommand('@', "/ADD 556 1 100 100000");
-	}
-}
-function knight(%quality)
-{
-	if(%quality){
-		echo("## Adding Knight Sword - Q" @ %quality @ " ##");
-		cmChatCommand('@', "/ADD 557 1 " @ %quality @ "100000");
-	}
-	else {
-		echo("## Adding Knight Sword - Q100 ##");
-		cmChatCommand('@', "/ADD 557 1 100 100000");
 	}
 }
 function lightsabre(%quality)
