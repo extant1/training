@@ -1,5 +1,8 @@
 # Life is Feudal Training Server Script
-**Version 1.3**
+**Version 1.4**
+
+1.4
+-Added remaining weapons
 
 1.3
 
