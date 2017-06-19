@@ -351,6 +351,19 @@ function royalplate(%quality)
 // Weapons
 ////
 
+//Militia
+function pitckfork(%quality)
+{
+	if(%quality){
+		echo("## Adding Pitchfork - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 588 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Pitchfork - Q100 ##");
+		cmChatCommand('@', "/ADD 588 1 100 100000");
+	}
+}
+
 
 // Spears
 function boarspear(%quality)
@@ -368,9 +381,42 @@ function bs(%quality)
 {
 	boarspear(%quality);
 }
+function spear(%quality)
+{
+	if(%quality){
+		echo("## Adding Spear - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 591 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Spear - Q100 ##");
+		cmChatCommand('@', "/ADD 591 1 100 100000");
+	}
+}
+function awlpike(%quality)
+{
+	if(%quality){
+		echo("## Adding Awl Pike - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 593 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Awl Pike - Q100 ##");
+		cmChatCommand('@', "/ADD 593 1 100 100000");
+	}
+}
+function becdecorbin(%quality)
+{
+	if(%quality){
+		echo("## Adding Bec De Corbin - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 594 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Bec De Corbin - Q100 ##");
+		cmChatCommand('@', "/ADD 594 1 100 100000");
+	}
+}
 
 
-// Poleaxes
+// Polearms
 function partisan(%quality)
 {
 	if(%quality){
@@ -386,7 +432,96 @@ function p(%quality)
 {
 	partisan(%quality);
 }
+function glaive(%quality)
+{
+	if(%quality){
+		echo("## Adding Glaive - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 585 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Glaive - Q100 ##");
+		cmChatCommand('@', "/ADD 585 1 100 100000");
+	}
+}
+function guisarme(%quality)
+{
+	if(%quality){
+		echo("## Adding Guuisarme - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 586 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Guisarme - Q100 ##");
+		cmChatCommand('@', "/ADD 586 1 100 100000");
+	}
+}
+function pollaxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Pollaxe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 579 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Pollaxe - Q100 ##");
+		cmChatCommand('@', "/ADD 579 1 100 100000");
+	}
+}
+function staff(%quality)
+{
+	if(%quality){
+		echo("## Adding Staff - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 590 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Staff - Q100 ##");
+		cmChatCommand('@', "/ADD 590 1 100 100000");
+	}
+}
 
+// 1H Axe
+function practiceaxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 566 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 566 1 100 100000");
+	}
+}
+function battleaxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Battle Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 568 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Battle Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 568 1 100 100000");
+	}
+}
+function nordicaxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Nordic Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 569 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Nordic Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 569 1 100 100000");
+	}
+}
+function waraxe(%quality)
+{
+	if(%quality){
+		echo("## Adding War Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 567 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding War Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 567 1 100 100000");
+	}
+}
 
 // Lances
 function lance(%quality)
@@ -571,9 +706,57 @@ function throwingaxe(%quality)
 		cmChatCommand('@', "/ADD 610 1 100 100000");
 	}
 }
+function naphthapot(%quality)
+{
+	if(%quality){
+		echo("## Adding Naphtha Pot - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 1104 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Naphtha Pot - Q100 ##");
+		cmChatCommand('@', "/ADD 1104 1 100 100000");
+	}
+}
+function naphtha(%quality))
+{
+	naphthapot(%quality);
+}
+function fireworkpot(%quality)
+{
+	if(%quality){
+		echo("## Adding Firework Pot - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 1341 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Firework Pot - Q100 ##");
+		cmChatCommand('@', "/ADD 1341 1 100 100000");
+	}
+}
+function sling(%quality)
+{
+	if(%quality){
+		echo("## Adding Sling - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 607 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Sling - Q100 ##");
+		cmChatCommand('@', "/ADD 607 1 100 100000");
+	}
+}
 
 
 // 2H Swords
+function practicelongsword(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Longsword - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 574 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Longsword - Q100 ##");
+		cmChatCommand('@', "/ADD 574 1 100 100000");
+	}
+}
 function zweihaender(%quality)
 {
 	if(%quality){
@@ -589,17 +772,6 @@ function zwei(%quality)
 {
 	zweihaender(%quality);
 }
-function knight(%quality)
-{
-	if(%quality){
-		echo("## Adding Knight Sword - Q" @ %quality @ " ##");
-		cmChatCommand('@', "/ADD 557 1 " @ %quality @ "100000");
-	}
-	else {
-		echo("## Adding Knight Sword - Q100 ##");
-		cmChatCommand('@', "/ADD 557 1 100 100000");
-	}
-}
 function claymore(%quality)
 {
 	if(%quality){
@@ -609,17 +781,6 @@ function claymore(%quality)
 	else {
 		echo("## Adding Claymore - Q100 ##");
 		cmChatCommand('@', "/ADD 575 1 100 100000");
-	}
-}
-function bigfalchion(%quality)
-{
-	if(%quality){
-		echo("## Adding Big Falchion - Q" @ %quality @ " ##");
-		cmChatCommand('@', "/ADD 564 1 " @ %quality @ " 100000");
-	}
-	else {
-		echo("## Adding Big Falchion - Q100 ##");
-		cmChatCommand('@', "/ADD 564 1 100 100000");
 	}
 }
 function flamberge(%quality)
@@ -634,8 +795,110 @@ function flamberge(%quality)
 	}
 }
 
+// Half hand swords
+function bigfalchion(%quality)
+{
+	if(%quality){
+		echo("## Adding Big Falchion - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 564 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Big Falchion - Q100 ##");
+		cmChatCommand('@', "/ADD 564 1 100 100000");
+	}
+}
+function practicebastard(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Bastard - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 561 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Bastard - Q100 ##");
+		cmChatCommand('@', "/ADD 561 1 100 100000");
+	}
+}
+function bastard(%quality)
+{
+	if(%quality){
+		echo("## Adding Bastard - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 563 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Bastard - Q100 ##");
+		cmChatCommand('@', "/ADD 563 1 100 100000");
+	}
+}
+function estoc(%quality)
+{
+	if(%quality){
+		echo("## Adding Estoc - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 562 1 " @ %quality @ " 100000");
+	}
+	else {
+		echo("## Adding Estoc - Q100 ##");
+		cmChatCommand('@', "/ADD 562 1 100 100000");
+	}
+}
+function knight(%quality)
+{
+	if(%quality){
+		echo("## Adding Knight Sword - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 557 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Knight Sword - Q100 ##");
+		cmChatCommand('@', "/ADD 557 1 100 100000");
+	}
+}
 
-// Blunt
+// 2H Axe
+function practicegreataxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Great Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 578 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Great Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 578 1 100 100000");
+	}
+}
+function bardiche(%quality)
+{
+	if(%quality){
+		echo("## Adding Bardiche - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 580 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Bardiche - Q100 ##");
+		cmChatCommand('@', "/ADD 580 1 100 100000");
+	}
+}
+function broadaxe(%quality)
+{
+	if(%quality){
+		echo("## Adding Broad Axe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 581 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Broad Axe - Q100 ##");
+		cmChatCommand('@', "/ADD 581 1 581 100000");
+	}
+}
+function warscythe(%quality)
+{
+	if(%quality){
+		echo("## Adding War Scythe - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 587 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding War Scythe - Q100 ##");
+		cmChatCommand('@', "/ADD 587 1 100 100000");
+	}
+}
+
+// 2H Blunt
 function maul(%quality)
 {
 	if(%quality){
@@ -647,6 +910,30 @@ function maul(%quality)
 		cmChatCommand('@', "/ADD 583 1 100 100000");
 	}
 }
+function practicemaul(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Maul - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 584 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Maul - Q100 ##");
+		cmChatCommand('@', "/ADD 584 1 100 100000");
+	}
+}
+function sledgehammer(%quality)
+{
+	if(%quality){
+		echo("## Adding Sledge Hammer - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 582 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Sledge Hammer - Q100 ##");
+		cmChatCommand('@', "/ADD 582 1 100 100000");
+	}
+}
+
+// 1H Blunt
 function warpick(%quality)
 {
 	if(%quality){
@@ -668,6 +955,10 @@ function mace(%quality)
 		echo("## Adding Mace - Q100 ##");
 		cmChatCommand('@', "/ADD 571 1 100 100000");
 	}
+}
+function flangedmace(%quality)
+{
+	mace(%quality);
 }
 function cudgel(%quality)
 {
@@ -694,6 +985,17 @@ function morningstar(%quality)
 
 
 // 1H Swords
+function practicesword(%quality)
+{
+	if(%quality){
+		echo("## Adding Practice Sword - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 555 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Practice Sword - Q100 ##");
+		cmChatCommand('@', "/ADD 555 1 100 100000");
+	}
+}
 function falchion(%quality)
 {
 	if(%quality){
@@ -731,7 +1033,7 @@ function scimitar(%quality)
 		cmChatCommand('@', "/ADD 559 1 100 100000");
 	}
 }
-function nordic(%quality)
+function nordicsword(%quality)
 {
 	if(%quality){
 		echo("## Adding Nordic Sword - Q" @ %quality @ " ##");
@@ -952,6 +1254,18 @@ function pavise(%quality)
 	}
 }
 
+// Misc
+function slingammo(%quality)
+{
+	if(%quality){
+		echo("## Adding Sling Ammo - Q" @ %quality @ " ##");
+		cmChatCommand('@', "/ADD 1096 1 " @ %quality @ "100000");
+	}
+	else {
+		echo("## Adding Sling Ammo - Q100 ##");
+		cmChatCommand('@', "/ADD 1096 1 100 100000");
+	}
+}
 function tabard(%quality)
 {
 	if(%quality){

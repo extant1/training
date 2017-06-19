@@ -129,11 +129,29 @@ halfplate
 fullplate  
 royalplate  
 
-## Poleaxes(quality)
+## Militia(quality)
+pitchfork  
+
+## Polearms(quality)
 partisan **OR** p  
+glaive  
+guisarme  
+pollaxe  
+staff  
+
+## 1H Axe(quality)
+practiceaxe  
+battleaxe  
+nordicaxe  
+waraxe  
 
 ## Spears(quality)
+spear  
 boarspear **OR** bs  
+awlpike
+bedecorbin  
+
+# Pikes (quality)
 shortpike  
 mediumpike  
 longpike  
@@ -144,16 +162,32 @@ lance
 decorated  
 
 ## 2H Sword(quality)
+practicelongsword  
 zweihaender **OR** zwei  
 claymore  
 bigfalchion  
 flamberge  
-knight
 
-## Blunt (quality)
+## Half Hand Sword(quality)
+bastard  
+knight  
+estoc  
+bigfalchion
+
+## 2H Blunt(quality)
+practicemaul  
 maul  
+sledgehammer  
+
+## 2H Axe
+practicegreataxe  
+bardiche  
+broadaxe  
+warscythe  
+
+## 1H Blunt(quality)
 warpick  
-mace  
+flangedmace **OR** mace  
 cudgel  
 morningstar  
 
@@ -175,9 +209,12 @@ heavycrossbow
 arbalest  
 
 ## Thrown Weapons (quality)
+sling  
 throwingknife  
 javelin  
 throwingaxe  
+naphthapot  **OR** naphtha  
+fireworkpot  
 
 ## Arrows(QUANTITY)
 arrow  
@@ -202,6 +239,7 @@ tower
 pavise  
 
 ## Misc(quality)
+slingammo  
 tabard  
 gold (ingot for monuments)  
 
