@@ -717,7 +717,7 @@ function naphthapot(%quality)
 		cmChatCommand('@', "/ADD 1104 1 100 100000");
 	}
 }
-function naphtha(%quality))
+function naphtha(%quality)
 {
 	naphthapot(%quality);
 }
